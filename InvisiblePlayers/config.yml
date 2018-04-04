@@ -1,0 +1,22 @@
+#CHOOSE AN OPTION :
+#COMMAND > Use it with only a command (the command /invplayers)
+#INVISIBLE > Use it when players have an invisible potion
+#ALWAYS > Never show the armor
+option: INVISIBLE
+#The permission to use this COMMAND
+permission: invplayers.usecommand
+permission_admin: invplayers.usecommand.admin
+
+messages:
+  config:
+    option_unavalible: "The default option is unavailable"
+    permission_not_found: "The permission wasn't able to load"
+    error_loading: "An error occurred while loading the configuration. Report the error :"
+  commands:
+    not_player: "You must be a player to use this command !"
+    no_perm: "&cYou don't have the required permissions"
+    relaod_before: "&aReload has started"
+    reload_end: "&aThe configuration has been reloaded"
+    list_everybody: "&cEverybody has an invisible armor"
+    list: "&aPlayers that have an invisible armor : "
+    help: "&aHelp : /invplayers\n&a- reload > Reload the configuration\n&a- list > List the players that have invisible armor\n&a- help > Show this message\n&a- toggle > Toggle the invisible armor"

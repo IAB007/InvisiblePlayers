@@ -1,0 +1,9 @@
+name: InvisiblePlayers
+version: BETA 0.0.1
+main: ca.IAB007.spigot.invisibleplayers.InvisiblePlayers
+author: IAB007
+description: A plugin to create true invisible players
+
+commands:
+  invplayers:
+    description: Invisible players command
